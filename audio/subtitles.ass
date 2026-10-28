@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MilitaryTitle,Arial Black,54,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,6,3,2,60,60,570,1
+Style: SubHeading,Arial Black,38,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,4,2,2,60,60,1370,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,MilitaryTitle,,0,0,0,,THẾ MỚI BIẾT NẾU CHIẾN TRANH NỔ RA
+Dialogue: 0,0:00:03.00,0:00:06.10,MilitaryTitle,,0,0,0,,{\\c&H0000FF&}SỨC HỦY DIỆT{\\c&H00FFFF&} SẼ KHỦNG KHIẾP ĐẾN MỨC NÀO!
+Dialogue: 0,0:00:06.10,0:00:09.80,MilitaryTitle,,0,0,0,,HÀNG TRĂM KHẨU PHÁO VÀ ROCKET TẦM XA
+Dialogue: 0,0:00:09.80,0:00:13.42,MilitaryTitle,,0,0,0,,{\\c&H0000FF&}BẤT NGỜ ÁP SÁT{\\c&H00FFFF&} ĐƯỜNG BIÊN GIỚI!
+Dialogue: 0,0:00:13.42,0:00:17.50,MilitaryTitle,,0,0,0,,QUÂN ĐỘI ĐẶT TRẠNG THÁI BÁO ĐỘNG ĐỎ
+Dialogue: 0,0:00:17.50,0:00:21.72,MilitaryTitle,,0,0,0,,{\\c&H0000FF&}ĐÂY LÀ RĂN ĐE{\\c&H00FFFF&} HAY CƠN BÃO CHIẾN TRANH?

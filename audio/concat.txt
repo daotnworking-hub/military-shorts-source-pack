@@ -1,0 +1,3 @@
+file 'C:/Users/Dao/Downloads/military_shorts/audio/s1.mp3'
+file 'C:/Users/Dao/Downloads/military_shorts/audio/s2.mp3'
+file 'C:/Users/Dao/Downloads/military_shorts/audio/s3.mp3'

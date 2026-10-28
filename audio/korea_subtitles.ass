@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MilitarySub,Arial Black,46,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,3,2,60,60,340,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,MilitarySub,,0,0,0,,TIẾNG GẦM XÉ TOẠC BẦU TRỜI!\N{\c&H00D7FF&}BÁN ĐẢO TRIỀU TIÊN RUNG CHUYỂN!
+Dialogue: 0,0:00:03.00,0:00:06.00,MilitarySub,,0,0,0,,HÀNG TRĂM CỖ CHIẾN XA TỐI TÂN\N{\c&H00D7FF&}ĐỒNG LOẠT KHAI HỎA RẦM TRỜI!
+Dialogue: 0,0:00:06.00,0:00:09.00,MilitarySub,,0,0,0,,TRẬN ĐỊA PHÁO PHẢN LỰC TẦM XA\N{\c&H00D7FF&}SẴN SÀNG TRÚT BÃO LỬA VẠN QUẢ!
+Dialogue: 0,0:00:09.00,0:00:12.00,MilitarySub,,0,0,0,,TỪNG PHÁT ĐẠN HẠNG NẶNG\N{\c&H00D7FF&}BÁO HIỆU ĐÒN HỦY DIỆT KINH HOÀNG!
+Dialogue: 0,0:00:12.00,0:00:15.00,MilitarySub,,0,0,0,,TÊN LỬA RỜI BỆ PHÓNG\N{\c&H00D7FF&}KHÓA CHẶT MỌI MỤC TIÊU CHIẾN LƯỢC!
+Dialogue: 0,0:00:15.00,0:00:18.00,MilitarySub,,0,0,0,,PHÁO ĐÀI THÉP TRỰC CHIẾN\N{\c&H00D7FF&}PHONG TỎA MỌI NGẢ ĐƯỜNG BIỂN!
+Dialogue: 0,0:00:18.00,0:00:21.00,MilitarySub,,0,0,0,,PHI ĐỘI TIÊM KÍCH QUẦN THẢO 24/24\N{\c&H00D7FF&}KHÔNG MỘT GIÂY PHÚT LƠ LÀ!
+Dialogue: 0,0:00:21.00,0:00:24.00,MilitarySub,,0,0,0,,CĂNG THẲNG ĐÃ CHẠM ĐỈNH ĐIỂM\N{\c&H00D7FF&}MỘT TIA LỬA NHỎ CŨNG BÙNG NỔ!
+Dialogue: 0,0:00:24.00,0:00:27.00,MilitarySub,,0,0,0,,ĐỐI ĐẦU VŨ KHÍ TỐI THƯỢNG\N{\c&H00D7FF&}RỰC SÁNG TRÊN BẦU TRỜI ĐÊM!
+Dialogue: 0,0:00:27.00,0:00:30.00,MilitarySub,,0,0,0,,MỆNH LỆNH TÁC CHIẾN ĐÃ BAN HÀNH\N{\c&H00D7FF&}SẴN SÀNG CHO ĐÒN PHỦ ĐẦU!
+Dialogue: 0,0:00:30.00,0:00:33.00,MilitarySub,,0,0,0,,HÒA BÌNH CÓ ĐƯỢC GIỮ VỮNG\N{\c&H00D7FF&}HAY CƠN BÃO THÉP SẮP ẬP ĐẾN?
+Dialogue: 0,0:00:33.00,0:00:36.00,MilitarySub,,0,0,0,,ĐĂNG KÝ QUÂN SỰ VIỆT NAM\N{\c&H00D7FF&}ĐỂ CẬP NHẬT DIỄN BIẾN MỚI NHẤT!
