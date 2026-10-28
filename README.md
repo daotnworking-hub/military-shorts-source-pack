@@ -1,37 +1,36 @@
-# Military Shorts Auto Pipeline & Master Source Pack (Quân Sự Việt Nam)
+# Military Source Pack & Automation Pipeline (Quân Sự Việt Nam)
 
-Hệ thống tự động hóa toàn bộ quy trình tải, biên tập, chỉnh màu và dựng video ngắn 9:16 (Shorts/TikTok/Reels) chủ đề Quân sự Việt Nam & Thế giới.
+Hệ thống tự động hóa toàn bộ quy trình tải, biên tập, chỉnh màu và dựng video ngắn 9:16 (Shorts/TikTok/Reels) từ nguồn tư liệu phong phú của kênh **@CDMediaQuanSu**.
 
 ---
 
 ## 📦 Nội Dung Package
 
-1. **Master Source Video (18 phút 49 giây)**:
-   - File: `MASTER_SOURCE_QUAN_SU_20CLIPS.mp4` (~78.7 MB)
-   - Chứa 20 clip hành động quân sự chất lượng cao trích xuất từ kênh `@CDMediaQuanSu`.
-   - Chuẩn khung hình dọc 9:16 (608x1080), âm thanh nguyên bản.
+### 1. Master Source Video Ngang (16:9 - 17 phút 31 giây)
+- File: `MASTER_SOURCE_NGANG_QUAN_SU.mp4` (~67.7 MB)
+- Trích xuất và ghép nối liền mạch các thước phim đắt giá nhất từ 5 đại phóng sự quân sự:
+  - 01. Bộ đội Việt Nam xẻ dọc Trường Sơn đưa xe tăng vào tác chiến.
+  - 02. Việt Nam chi 2 tỷ USD mua tàu ngầm Kilo bảo vệ biển đảo.
+  - 03. Samurra 1991 - Trận không chiến rực lửa làm lu mờ F-15.
+  - 04. Sư đoàn 308 - Quân Tiên Phong và kế hoạch tác chiến 1975.
+  - 05. Vì sao trực thăng quân đội Mỹ mang tên các bộ tộc da đỏ?
+- Định dạng: Chuẩn 16:9 (1280x720), âm thanh nguyên bản.
 
-2. **Bộ Công Cụ Tự Động Hóa 1-Click (Code Python + Batch Windows)**:
-   - `TAI_VIDEO_YOUTUBE.bat` / `download_from_youtube.py`: Tự động tải video YouTube Full HD không cần web converter trung gian.
-   - `XAO_NAU_VIDEO.bat` / `auto_cook_video.py`: Tự động cắt 12 cảnh (3s/lần), gắn HUD thời sự, chèn tiêu đề giật gân, chỉnh màu điện ảnh và xuất video Full HD.
-   - `compile_20_clips.py`: Script nối nhiều video clip thành 1 Master Source duy nhất trong chưa đầy 1 giây.
+### 2. Master Source Video Dọc (9:16 - 18 phút 49 giây)
+- File: `MASTER_SOURCE_QUAN_SU_20CLIPS.mp4` (~78.7 MB)
+- Tổng hợp 20 video Short quân sự tốc độ cao, sẵn sàng đưa vào CapCut / Premiere.
 
-3. **Tài Nguyên Đồ Họa & Font Chữ (Assets)**:
-   - Font **Montserrat ExtraBold**: Hỗ trợ 100% tiếng Việt có dấu, khắc phục hoàn toàn lỗi vỡ font.
-   - Khung HUD thời sự `overlay_vn_military.png`.
-   - Tiêu đề mở đầu Báo Động Đỏ `hook_korea_tensions.png`.
-   - Nhạc nền Trailer kịch tính `bgm_epic.mp3`.
+### 3. Nguồn Video Dài Cục Bộ (Hơn 1 giờ 15 phút)
+- Thư mục cục bộ: `source_ngang/` lưu giữ toàn bộ 5 video dài nguyên bản (10-17 phút/video) để dựng phim chuyên sâu.
+
+### 4. Bộ Công Cụ Tự Động Hóa 1-Click
+- `TAI_VIDEO_YOUTUBE.bat`: Tự động tải video YouTube Full HD trực tiếp (không cần web trung gian).
+- `XAO_NAU_VIDEO.bat`: Tự động cắt cảnh 3s/lần, gắn khung thời sự, tiêu đề mở đầu giật gân và xuất video Shorts 9:16.
+- `compile_horizontal_master.py`: Tool nối các đoạn highlight ngang thành Master Source.
 
 ---
 
 ## 🚀 Hướng Dẫn Sử Dụng
 
-### Bước 1: Tải thêm video nguồn (Tùy chọn)
-- Bấm đúp vào `TAI_VIDEO_YOUTUBE.bat`.
-- Chọn phím `1` để dán link video, hoặc phím `2` để tự động tải các Short mới nhất.
-
-### Bước 2: Tự động xào nấu video ngắn 9:16
-- Thả các video bạn thích vào thư mục `input_videos/`.
-- (Tùy chọn) Thả file thu âm giọng đọc `voice.mp3` vào `input_videos/`.
-- Bấm đúp vào `XAO_NAU_VIDEO.bat`.
-- Sau 10-15 giây, video 9:16 hoàn chỉnh sẽ tự động xuất hiện trong thư mục `output/`.
+1. **Lấy tư liệu**: Kéo trực tiếp file `MASTER_SOURCE_NGANG_QUAN_SU.mp4` hoặc `MASTER_SOURCE_QUAN_SU_20CLIPS.mp4` vào CapCut / Premiere để cắt b-roll.
+2. **Dựng tự động**: Thả clip vào `input_videos/` và bấm đúp chuột vào `XAO_NAU_VIDEO.bat`.
